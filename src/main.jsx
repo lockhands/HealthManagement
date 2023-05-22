@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import { RegistroUsuarios } from './Usuarios/RegistroUsuarios'
+import './styles.css';
+import { DatosBancarios } from './Usuarios/DatosBancarios';
+import { DatosEconomicos } from './Usuarios/DatosEconomicos';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <DatosEconomicos />
   </React.StrictMode>,
 )

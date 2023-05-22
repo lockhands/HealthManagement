@@ -1,0 +1,25 @@
+.form{
+    display:grid;
+}
+
+.cedula-form{
+    display:grid;
+    grid-template-columns: 1fr 4fr 1fr;
+ 
+}
+
+.input{
+    width: 20px;
+}
+
+.cedula-select{
+    width: 3em;
+    background-color: #dcdcdc;
+    border: solid 1px white;
+    border-radius: 5px;
+}
+
+.cedula-input{
+    width: 90%;
+  
+}
