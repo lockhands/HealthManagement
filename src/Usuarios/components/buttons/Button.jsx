@@ -1,9 +1,9 @@
 import './styles.css'
 
-export const Button = ({titulo}) =>{
+export const Button = ({titulo,route}) =>{
     return(
         <>
-        <button>
+        <button className="button" onClick={route}>
             {titulo}
         </button>
         </>
