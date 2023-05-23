@@ -4,7 +4,7 @@ import { InfoUsuario } from "./components/form/General/InfoUsuario"
 export const DatosEconomicos = () => {
     return(
     <>
-        <DatosPersonales>
+        <DatosPersonales to="/3">
             <InfoUsuario titulo="Último balance" />
 
             <div className="form-2">

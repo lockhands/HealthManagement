@@ -3,15 +3,15 @@ import { InfoUsuario } from "./components/form/General/InfoUsuario";
 import { Cedula } from "./components/form/Cedula/Cedula";
 import "./styles.css"
 import { DatosPersonales } from "./DatosPersonales";
+import { Outlet } from "react-router-dom";
 
 export const RegistroUsuarios = () =>{
     
    
     return(
         <>  
-       
            
-            <DatosPersonales>
+            <DatosPersonales to="/2">
 
        
            <div className="form-2">

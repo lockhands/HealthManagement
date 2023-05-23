@@ -5,7 +5,7 @@ import { Button } from "./components/buttons/Button"
 export const DatosBancarios = () => {
     return(
         <>
-        <DatosPersonales>
+        <DatosPersonales to="3">
 
             <h1>Datos Generales</h1>
 
